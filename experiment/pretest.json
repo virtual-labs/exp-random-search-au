@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the main limitation of the Random Search Algorithm in graph search?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It can only be applied to graphs with few nodes",
+        "b": "It is very computationally expensive",
+        "c": "It does not guarantee finding an optimal solution",
+        "d": "It only works with directed graphs"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -15,16 +15,65 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Can the Random Search Algorithm be combined with other search algorithms?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "No, it can only be used on its own",
+        "b": "Yes",
+        "c": "It depends on the specific problem being solved",
+        "d": "Only with other heuristic search algorithms"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the main disadvantage of using Random Search in graph search?",
+      "answers": {
+        "a": "It can be very slow for large graphs",
+        "b": "It can get stuck in local optima",
+        "c": "It can only find solutions for certain types of optimization problems",
+        "d": " It can only be used on undirected graphs"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Can the Random Search Algorithm be used to solve a traveling salesman problem?",
+      "answers": {
+        "a": "Yes",
+        "b": "No"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a disadvantage of using Random Search for function optimization?",
+      "answers": {
+        "a": "It guarantees finding the global optimum",
+        "b": "It is computationally efficient",
+        "c": "It may not converge to a good solution",
+        "d": "It can only optimize functions with a small number of variables "
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",

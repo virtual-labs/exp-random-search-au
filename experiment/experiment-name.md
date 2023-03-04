@@ -1,1 +1,1 @@
-## Random Search
+## Perform and visualize Random Search
