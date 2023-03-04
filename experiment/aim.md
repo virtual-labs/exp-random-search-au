@@ -1,1 +1,2 @@
-### Aim of the experiment
+## Aim of the experiment
+    Random search can be used to solve a variety of problems in a graph, including finding the shortest path between two nodes, identifying clusters or communities within the graph, and predicting the likelihood of certain events or outcomes.
