@@ -1,16 +1,25 @@
-### Theory
 ##  Algorithm For Random Search
 
-The function "randomSearch" takes as input nodes, links, start node, and end node.
-Initialize an empty path.
-Check if the startNode has been visited.
-a. If visited, backtrack to the previous node and return false.
-3.Mark the startNode as visited and add it to the path.
-Select all the links available from the startNode.
-Choose a random link from the available links.
-Check if the target node of the selected link is the endNode.
-a. If yes, return the path.
-b. If not, call the function recursively on the target node.
-If no path is found from the current node, backtrack to the previous node.
-Repeat until a path is found or all nodes have been searched.
-If no path is found, return false.
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item</li>
+
+<ol>
+<li>Enter start node and end node</li>
+<li>Initialize an empty path</li>
+<li>Check if the startNode has been visited
+<ul><li>If visited, backtrack to the previous node and return false.</li></ul>
+<li>Mark the startNode as visited and add it to the path </li>
+<li>Select all the links available from the startNode</li>
+<li>Choose a random link from the available links</li>
+<li>Check if the target node of the selected link is the endNode
+<ul>
+    <li>If yes, return the path.</li>
+    <li>If not, call the function recursively on the target node.</li>
+</ul></li>    
+<li>If no path is found from the current node, backtrack to the previous node.
+<li>Repeat until a path is found or all nodes have been searched.
+<li>If no path is found, return false.
+</ol>
