@@ -1,5 +1,5 @@
 ##  Algorithm For Random Search
-
+<ol>
 <li>Enter start node and end node</li>
 <li>Initialize an empty path</li>
 <li>Check if the startNode has been visited
