@@ -1,13 +1,17 @@
 # Procedure
-Random search can be used to solve a variety of problems in a graph, including finding the shortest path between two nodes, identifying clusters or communities within the graph, and predicting the likelihood of certain events or outcomes.
 
 ## Create the Graph and set the search parameters:
-    Select whether directed /undirected graph
-    Select creating graph manual/random
-    Enter Source Node and Destination Node
-    Initiate Search on Graph
+Step1:Select from directed graph /undirected graph\
+step2:Enter no of nodes and no of links\
+Step3:Select from custom or random options to create graph\
+Step4:Enter Source Node and Destination Node\
+Step5:Click on Find path to start the search\
+Custom graph can also be created if you select custom graph option\
+
+
 ## Generate solution:
-    Visualize the steps / data structure to store the intermediate values.
-    Visualize the path from selecting a starting point on the graph and then following a random path through the graph until the destination is not reached.
-    Iterations can be animated; paths can be highlighted.
-    The result will be a path which displays the end of the search.
+Visualize the steps 
+Visualize the path from selecting a starting point on the graph and then following a random path through the graph until the destination is not reached.
+Iterations can be animated; paths can be highlighted.
+The result will be a path which displays the end of the search.
+
