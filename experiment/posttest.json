@@ -8,13 +8,7 @@
         "b": "A search algorithm that explores the graph in a systematic manner",
         "c": "A heuristic algorithm used for optimization problems ",
         "d": "A graph traversal algorithm that always finds the shortest path"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      },      
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -25,13 +19,7 @@
         "b": "It requires minimal computational resources",
         "c": "It can only be applied to certain types of graphs",
         "d": "It always finds the shortest path in the graph"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      },  
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -42,13 +30,7 @@
         "b": "Solving a traveling salesman problem",
         "c": "Function optimization",
         "d": "Sorting a list of numbers"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      },      
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -59,13 +41,7 @@
         "b": "Determining the most efficient way to schedule employees",
         "c": "Minimizing the cost of a production process ",
         "d": "Finding the maximum flow through a network"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      },    
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -76,13 +52,7 @@
         "b": "Hill Climbing explores the graph in a systematic manner, while Random Search is random",
         "c": "Hill Climbing only works with directed graphs, while Random Search works with any type of graph",
         "d": "There is no difference between the two algorithms"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      }, 
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -91,13 +61,7 @@
       "answers": {
         "a": "Yes",
         "b": "No"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      },      
       "correctAnswer": "b",
       "difficulty": "beginner"
     }

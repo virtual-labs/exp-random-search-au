@@ -8,13 +8,7 @@
         "b": "It is very computationally expensive",
         "c": "It does not guarantee finding an optimal solution",
         "d": "It only works with directed graphs"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      },     
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -26,12 +20,6 @@
         "c": "It depends on the specific problem being solved",
         "d": "Only with other heuristic search algorithms"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -42,13 +30,7 @@
         "b": "It can get stuck in local optima",
         "c": "It can only find solutions for certain types of optimization problems",
         "d": " It can only be used on undirected graphs"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      },      
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -57,13 +39,7 @@
       "answers": {
         "a": "Yes",
         "b": "No"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      },      
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -74,13 +50,7 @@
         "b": "It is computationally efficient",
         "c": "It may not converge to a good solution",
         "d": "It can only optimize functions with a small number of variables "
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      },      
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
