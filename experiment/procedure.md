@@ -1,13 +1,13 @@
 # Procedure
 
-## Create the Graph and set the search parameters:
-Step1:Select from directed graph /undirected graph\
-step2:Enter no of nodes and no of links\
-Step3:Select from custom or random options to create graph\
-Step4:Enter Source Node and Destination Node\
-Step5:Click on Find path to start the search\
-Custom graph can also be created if you select custom graph option\
+## Create the Graph and set the search parameters
+*Step1*:  Select from directed graph undirected graph.<br>
+*Step2*:  Enter no of nodes and no of links.<br>
+*Step3*:  Select from custom or random options to create graph.<br>
+*Step4*:  Enter Source Node and Destination Node.<br>
+*Step5*:  Click on Find path to start the search.<br>
 
+*Custom graph can also be created if you select custom graph option*
 
 ## Generate solution:
 Visualize the steps 
