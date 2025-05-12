@@ -1,4 +1,4 @@
-## Theory
+### Theory
 A random search algorithm works by randomly selecting points from a defined search space and evaluating them to find the best solution to a problem. It explores the space without following a specific pattern, Despite its simplicity, it can be effective in scenarios with large or complex search spaces where exhaustive search is impractical.
 
 <h4>  Algorithm For Random Search</h4>
