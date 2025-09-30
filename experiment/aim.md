@@ -1,2 +1,2 @@
-### Aim of the experiment
-To find the path between two nodes using random search algorithm
+
+To determine a path between two nodes in a graph using the Random Search Algorithm.
