@@ -1,0 +1,60 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "If Random Search is used on a graph with multiple paths, what is the outcome?",
+      "answers": {
+        "a": "It always finds the shortest path.",
+        "b": "It may find the goal but not necessarily the shortest path.",
+        "c": "It explores all nodes before reaching the goal.",
+        "d": "It guarantees failure in large graphs."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Suppose Random Search is applied to find a path from A to D. If the random choices are A → B → E (dead-end), what is the algorithm likely to do next?",
+      "answers": {
+        "a": "Stop immediately and report failure.",
+        "b": "Backtrack systematically like DFS.",
+        "c": "Randomly restart or choose another unexplored path.",
+        "d": "Wait until user gives another input."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why does Random Search not guarantee success in graph traversal?",
+      "answers": {
+        "a": "Because it does not use heuristics or structured exploration.",
+        "b": "Because it explores all possible paths before stopping.",
+        "c": "Because it requires a cost function to work.",
+        "d": "Because it is slower than BFS or DFS."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "In optimization problems, Random Search is useful when:",
+      "answers": {
+        "a": "The search space is small and deterministic.",
+        "b": "The search space is large, and systematic exploration is infeasible.",
+        "c": "An exact optimal solution is always needed.",
+        "d": "The solution requires heuristic knowledge."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which scenario best illustrates the randomness of Random Search?",
+      "answers": {
+        "a": "Always producing the same path when run multiple times.",
+        "b": "Producing different paths on different runs, sometimes failing, sometimes succeeding.",
+        "c": "Always finding the shortest path regardless of graph size.",
+        "d": "Stopping only after exploring all nodes."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    }
+  ]
+}
