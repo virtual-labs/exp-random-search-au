@@ -1,58 +1,60 @@
 {
-  "version": 2.0,
+  "version": 1.0,
   "questions": [
     {
-      "question": "What is the main limitation of the Random Search Algorithm in graph search?",
+      "question": "What is the main difference between Random Search and Depth-First Search?",
       "answers": {
-        "a": "It can only be applied to graphs with few nodes",
-        "b": "It is very computationally expensive",
-        "c": "It does not guarantee finding an optimal solution",
-        "d": "It only works with directed graphs"
-      },     
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Can the Random Search Algorithm be combined with other search algorithms?",
-      "answers": {
-        "a": "No, it can only be used on its own",
-        "b": "Yes",
-        "c": "It depends on the specific problem being solved",
-        "d": "Only with other heuristic search algorithms"
+        "a": "Random Search always finds the shortest path.",
+        "b": "Random Search does not follow a systematic order, while DFS does.",
+        "c": "Random Search uses heuristics, while DFS does not.",
+        "d": "Random Search guarantees an optimal solution."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "What is the main disadvantage of using Random Search in graph search?",
+      "question": "Which of the following best describes Random Search?",
       "answers": {
-        "a": "It can be very slow for large graphs",
-        "b": "It can get stuck in local optima",
-        "c": "It can only find solutions for certain types of optimization problems",
-        "d": " It can only be used on undirected graphs"
-      },      
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Can the Random Search Algorithm be used to solve a traveling salesman problem?",
-      "answers": {
-        "a": "Yes",
-        "b": "No"
-      },      
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Which of the following is a disadvantage of using Random Search for function optimization?",
-      "answers": {
-        "a": "It guarantees finding the global optimum",
-        "b": "It is computationally efficient",
-        "c": "It may not converge to a good solution",
-        "d": "It can only optimize functions with a small number of variables "
-      },      
+        "a": "A deterministic search method.",
+        "b": "A heuristic-based search method.",
+        "c": "A non-deterministic method that chooses paths randomly.",
+        "d": "A method that always explores all nodes."
+      },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "In Random Search, what happens if the algorithm reaches a dead-end?",
+      "answers": {
+        "a": "It backtracks systematically to the previous node.",
+        "b": "It chooses another path randomly from the start or remaining unexplored nodes.",
+        "c": "It terminates immediately without finding the goal.",
+        "d": "It guarantees finding the goal by retrying."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why is Random Search often considered as a baseline algorithm?",
+      "answers": {
+        "a": "Because it is the fastest algorithm for graph traversal.",
+        "b": "Because it ensures the most optimal path.",
+        "c": "Because it is simple and can be compared against advanced methods.",
+        "d": "Because it requires heuristics to work."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a limitation of Random Search?",
+      "answers": {
+        "a": "It is too complex to implement.",
+        "b": "It cannot be applied to optimization problems.",
+        "c": "It may fail to find the goal or return a non-optimal path.",
+        "d": "It requires heavy memory usage."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
     }
   ]
 }

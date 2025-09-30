@@ -2,68 +2,59 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the Random Search Algorithm??",
+      "question": "If Random Search is used on a graph with multiple paths, what is the outcome?",
       "answers": {
-        "a": " A search algorithm that always finds the optimal solution",
-        "b": "A search algorithm that explores the graph in a systematic manner",
-        "c": "A heuristic algorithm used for optimization problems ",
-        "d": "A graph traversal algorithm that always finds the shortest path"
-      },      
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "What is the main advantage of using Random Search in graph search?",
-      "answers": {
-        "a": "It guarantees finding an optimal solution",
-        "b": "It requires minimal computational resources",
-        "c": "It can only be applied to certain types of graphs",
-        "d": "It always finds the shortest path in the graph"
-      },  
+        "a": "It always finds the shortest path.",
+        "b": "It may find the goal but not necessarily the shortest path.",
+        "c": "It explores all nodes before reaching the goal.",
+        "d": "It guarantees failure in large graphs."
+      },
       "correctAnswer": "b",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-      "question": "What is a common use case for the Random Search Algorithm?",
+      "question": "Suppose Random Search is applied to find a path from A to D. If the random choices are A → B → E (dead-end), what is the algorithm likely to do next?",
       "answers": {
-        "a": "Finding the shortest path in a graph",
-        "b": "Solving a traveling salesman problem",
-        "c": "Function optimization",
-        "d": "Sorting a list of numbers"
-      },      
+        "a": "Stop immediately and report failure.",
+        "b": "Backtrack systematically like DFS.",
+        "c": "Randomly restart or choose another unexplored path.",
+        "d": "Wait until user gives another input."
+      },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-      "question": "Which of the following is an example of a problem that can be solved using the Random Search Algorithm?",
+      "question": "Why does Random Search not guarantee success in graph traversal?",
       "answers": {
-        "a": "Finding the shortest path between two cities",
-        "b": "Determining the most efficient way to schedule employees",
-        "c": "Minimizing the cost of a production process ",
-        "d": "Finding the maximum flow through a network"
-      },    
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+        "a": "Because it does not use heuristics or structured exploration.",
+        "b": "Because it explores all possible paths before stopping.",
+        "c": "Because it requires a cost function to work.",
+        "d": "Because it is slower than BFS or DFS."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
     },
     {
-      "question": "What is the difference between the Random Search Algorithm and the Hill Climbing Algorithm?",
+      "question": "In optimization problems, Random Search is useful when:",
       "answers": {
-        "a": "Hill Climbing always finds the optimal solution, while Random Search does not",
-        "b": "Hill Climbing explores the graph in a systematic manner, while Random Search is random",
-        "c": "Hill Climbing only works with directed graphs, while Random Search works with any type of graph",
-        "d": "There is no difference between the two algorithms"
-      }, 
+        "a": "The search space is small and deterministic.",
+        "b": "The search space is large, and systematic exploration is infeasible.",
+        "c": "An exact optimal solution is always needed.",
+        "d": "The solution requires heuristic knowledge."
+      },
       "correctAnswer": "b",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-      "question": " Can the Random Search Algorithm be used for multi-objective optimization?",
+      "question": "Which scenario best illustrates the randomness of Random Search?",
       "answers": {
-        "a": "Yes",
-        "b": "No"
-      },      
+        "a": "Always producing the same path when run multiple times.",
+        "b": "Producing different paths on different runs, sometimes failing, sometimes succeeding.",
+        "c": "Always finding the shortest path regardless of graph size.",
+        "d": "Stopping only after exploring all nodes."
+      },
       "correctAnswer": "b",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     }
   ]
 }
