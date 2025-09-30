@@ -3,9 +3,8 @@
 
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
-<b> Lab | <b> Internet of Things (IoT) 
-<b> Experiment|     <b>   Artificial Intelligence
-
+<b> Lab | <b> Artificial Intelligence
+<b> Experiment|     <b>  Perform and visualize Random Search
 
 
 ### About the Experiment 
